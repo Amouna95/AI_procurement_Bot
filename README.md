@@ -1,4 +1,4 @@
- # Advanced RAG (Retrival Augmented Generation using multi sources: PDF, URL, VIDEO, AUDIO, IMAGE
+ # AI Procurement Bot Powered by the Advanced RAG App – Handle PDFs, Web pages, Videos, Audios & Texts
 ### How does it work ?
 #### 1. sources (each source is converted into text): 
 - PDF: extract the text from the PDF
@@ -16,7 +16,7 @@ extracting text from an source and splitting it into small chunks. each chunk is
 #### 4. Extract top k (k=5 in the app) relevants informations 
 Base on the user query, we extract k relevants informations by comparing the embedded user input and vectors store from qdrant using cosine similarity
 
-#### 5. Passing these top 5 relevant informations into LLM (Large language model) as a context: llama-3.1-70B:
+#### 5. Passing these top 5 relevant informations into LLM (Large language model) as a context: llama-3.3-70B:
 These relevants informations are passed into the prompts as a context : example of the final prompt: 
     """ Using the contexts below, answer the query:
         Contexts:
