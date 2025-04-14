@@ -1,0 +1,25 @@
+langchain-core
+langchain-openai
+streamlit
+python-dotenv
+langchain-community
+langchain-groq
+pypdf
+chromadb
+faiss-cpu
+python-dotenv
+beautifulsoup4
+SpeechRecognition
+openai-whisper
+torch 
+torchvision 
+torchaudio --index-url https://download.pytorch.org/whl/cu118
+langchain_qdrant
+rag-evaluator
+openpyxl
+pandas
+matplotlib
+seaborn
+ast
+plotly
+scikit-learn
